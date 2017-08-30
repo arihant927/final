@@ -2272,8 +2272,8 @@ div#message {
 
 @media screen and (max-height: 818px) {
     .width-img img {
-        width: 60vw;
-        height: auto;
+        width: 100vw;
+        height: 394px;
     }
     .email-side {
         display: none;
