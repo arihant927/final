@@ -2272,7 +2272,7 @@ div#message {
 
 @media screen and (max-height: 818px) {
     .width-img img {
-        width: 100vw;
+        width: 95vw;
         height: 700px;
     }
     .email-side {
@@ -2325,7 +2325,7 @@ div#message {
     background-color: #999 !important;
 }
 
-@media only screen and (max-width: 700px){
+@media only screen and (min-width:350px)(max-width: 700px){
 .buorg div { 
     padding:5px 12px 5px 9px; 
     text-indent: 22px;
@@ -2346,5 +2346,6 @@ div#message {
 .social-icon svg path {
     fill:#FFF;
 }
-
-
+img.smallscreen { 
+                display: inline; 
+}
