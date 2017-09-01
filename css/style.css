@@ -2271,10 +2271,10 @@ div#message {
     
 }
 
-@media screen and (min-height:400px) and (max-height: 818px) {
+@media screen and (min-height:400px) and (max-height: 1080px) {
     .width-img img {
         width: 95vw;
-        height: 510px;
+        height: 610px;
     }
     .email-side {
         display: none;
@@ -2328,7 +2328,7 @@ div#message {
 
 @media only screen and (min-width:350px)(max-width: 1200px){
 .buorg div { 
-    padding:5px 12px 5px 9px; 
+    padding:5px 10px 5px 9px; 
     text-indent: 22px;
     line-height: 1.3em;
 }
