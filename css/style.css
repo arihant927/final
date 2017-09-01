@@ -2326,7 +2326,7 @@ div#message {
     background-color: #999 !important;
 }
 
-@media only screen and (min-width:350px)(max-width: 700px){
+@media only screen and (min-width:350px)(max-width: 1200px){
 .buorg div { 
     padding:5px 12px 5px 9px; 
     text-indent: 22px;
