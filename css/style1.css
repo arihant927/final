@@ -74,11 +74,7 @@
 }
 
 body {
-<<<<<<< HEAD
-    font-family: 'corbel', sans-serif;
-=======
     font-family: 'maison_neue', sans-serif;
->>>>>>> 13a3773f021e49c7b42f63a8acc2c394de5ec7a8
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     overflow: hidden;
@@ -90,11 +86,7 @@ body {
 }
 
 main {
-<<<<<<< HEAD
-    background: #214578;
-=======
-    background: #1da1f2;
->>>>>>> 13a3773f021e49c7b42f63a8acc2c394de5ec7a8
+    background: #FF0000;
     min-height: 100vh;
     display: flex;
     /*overflow: auto;*/
@@ -102,11 +94,7 @@ main {
 
 .about-page main {
     background: #FFF;
-<<<<<<< HEAD
-    color: #000;
-=======
     color: #c34;
->>>>>>> 13a3773f021e49c7b42f63a8acc2c394de5ec7a8
     height: 100vh;
     overflow: auto;
 }
@@ -174,11 +162,7 @@ h3 span:nth-child(2) {
 }
 
 section {
-<<<<<<< HEAD
-    background: #000;
-=======
     background: #c34;
->>>>>>> 13a3773f021e49c7b42f63a8acc2c394de5ec7a8
 }
 
 .general main .loader,
@@ -301,11 +285,7 @@ section {
 
 .loader section:before {
     content: '';
-<<<<<<< HEAD
-    background: rgba(0, 0, 0, 0.8);
-=======
     background: rgb(204, 51, 68);
->>>>>>> 13a3773f021e49c7b42f63a8acc2c394de5ec7a8
     width: 100%;
     bottom: 0;
     left: 0;
@@ -317,11 +297,7 @@ section {
 
 .loaded .loader section:before {
     content: '';
-<<<<<<< HEAD
-    background: rgba(0, 0, 0, 0.8);
-=======
     background: rgb(204, 51, 68);
->>>>>>> 13a3773f021e49c7b42f63a8acc2c394de5ec7a8
     width: 100%;
     height: 0;
     bottom: 0;
@@ -484,22 +460,15 @@ section:nth-child(11):before {
 /* Set the size of the scroller.  Visible border to make the demo easier to understand */
 
 #scrollable {
-<<<<<<< HEAD
-=======
 	position:absolute;
->>>>>>> 13a3773f021e49c7b42f63a8acc2c394de5ec7a8
     white-space: nowrap;
     width: 100vw;
     height: 100vh;
     overflow: hidden;
-<<<<<<< HEAD
-    background: #000;
-=======
     background: #c34;
 	text-align: center;
 	
 	
->>>>>>> 13a3773f021e49c7b42f63a8acc2c394de5ec7a8
 }
 
 .interieur #scrollable {
@@ -526,13 +495,8 @@ section:nth-child(11):before {
     width: 25vw;
     height: 100vh;
     vertical-align: top;
-<<<<<<< HEAD
-    background: #000;
-    color: #FFF;
-=======
     background: #C34;
     color: #c34;
->>>>>>> 13a3773f021e49c7b42f63a8acc2c394de5ec7a8
     position: relative;
     overflow: hidden;
     pointer-events: auto;
@@ -542,11 +506,7 @@ section:nth-child(11):before {
     width: 100vw;
     height: 100vh;
     vertical-align: top;
-<<<<<<< HEAD
-    background: #000;
-=======
     background: #c34;
->>>>>>> 13a3773f021e49c7b42f63a8acc2c394de5ec7a8
     color: #FFF;
     position: relative;
     overflow: hidden;
@@ -561,11 +521,7 @@ section:nth-child(11):before {
     height: auto;
     display: inline-block;
     vertical-align: top;
-<<<<<<< HEAD
-    background: #000;
-=======
     background: #c34;
->>>>>>> 13a3773f021e49c7b42f63a8acc2c394de5ec7a8
     color: #FFF;
     position: relative;
     overflow: hidden;
@@ -756,11 +712,7 @@ section:hover .cover-txt p {
 .about:before {
     content: '';
     position: absolute;
-<<<<<<< HEAD
-    background: #FFF;
-=======
     background: #c34;
->>>>>>> 13a3773f021e49c7b42f63a8acc2c394de5ec7a8
     top: calc(50% - 1px);
     left: -120px;
     width: 100px;
@@ -877,11 +829,7 @@ header nav a:hover.next-page,
 
 .about-page .barre-menu:after,
 .about-page .barre-menu:before {
-<<<<<<< HEAD
-    background: #000;
-=======
     background: #c34;
->>>>>>> 13a3773f021e49c7b42f63a8acc2c394de5ec7a8
 }
 
 .barre-menu {
@@ -994,11 +942,8 @@ header nav a:hover.next-page,
     justify-content: space-between;
     flex-wrap: wrap;
     flex-direction: column;
-<<<<<<< HEAD
-	
-=======
 	font-size: 40px;
->>>>>>> 13a3773f021e49c7b42f63a8acc2c394de5ec7a8
+	font-color: #fff;
 }
 
 .contact-page .content-texte {
@@ -1033,40 +978,24 @@ header nav a:hover.next-page,
 
 .content-about h1 {
     width: 100%;
-<<<<<<< HEAD
-    font-size: 60px;
-=======
     font-size: 50px;
->>>>>>> 13a3773f021e49c7b42f63a8acc2c394de5ec7a8
     margin: 0;
     padding: 40px 0;
     font-family: 'Butler Bold';
 }
 
 .content-img {
-<<<<<<< HEAD
-    width: 10%;
-=======
     width: 30%;
->>>>>>> 13a3773f021e49c7b42f63a8acc2c394de5ec7a8
     padding: 200px 0 60px;
 }
 
 .content-img img {
     width: 100%;
-<<<<<<< HEAD
-	height: 100%;
-=======
->>>>>>> 13a3773f021e49c7b42f63a8acc2c394de5ec7a8
 }
 
 .content-texte .col1,
 .content-texte .col2 {
     width: 80%;
-<<<<<<< HEAD
-	font-size:30px;
-=======
->>>>>>> 13a3773f021e49c7b42f63a8acc2c394de5ec7a8
 }
 
 .content-texte p,
@@ -1425,11 +1354,7 @@ label.btn-radio {
     align-items: center;
     justify-content: center;
     padding: 200px 250px;
-<<<<<<< HEAD
-    background: rgba(0, 0, 0, 0.8);
-=======
     background: rgb(204, 51, 68);
->>>>>>> 13a3773f021e49c7b42f63a8acc2c394de5ec7a8
     pointer-events: none;
     opacity: 0;
     transition: 1.4s cubic-bezier(.19, 1, .22, 1);
@@ -1448,11 +1373,7 @@ label.btn-radio {
     align-items: center;
     justify-content: center;
     padding: 200px 250px;
-<<<<<<< HEAD
-    background: rgba(0, 0, 0, 0.8);
-=======
     background: rgb(204, 51, 68);
->>>>>>> 13a3773f021e49c7b42f63a8acc2c394de5ec7a8
     pointer-events: none;
     opacity: 0;
     transition: 1.4s cubic-bezier(.19, 1, .22, 1);
@@ -1557,11 +1478,7 @@ label.btn-radio {
 
 .pannel1 {
     left: 0;
-<<<<<<< HEAD
-    background: #000;
-=======
     background: #c34;
->>>>>>> 13a3773f021e49c7b42f63a8acc2c394de5ec7a8
     right: 100vw;
     width: 0;
     transition: 1s cubic-bezier(.19, 1, .22, 1) 0.6s;
@@ -1571,11 +1488,7 @@ label.btn-radio {
     left: 50vw;
     right: 50vw;
     width: 0;
-<<<<<<< HEAD
-    background: #000;
-=======
     background: #c34;
->>>>>>> 13a3773f021e49c7b42f63a8acc2c394de5ec7a8
     transition: 1s cubic-bezier(.19, 1, .22, 1) 0.6s;
 }
 
@@ -1583,11 +1496,7 @@ label.btn-radio {
     left: 100vw;
     right: 0;
     width: 0;
-<<<<<<< HEAD
-    background: #000;
-=======
     background: #c34;
->>>>>>> 13a3773f021e49c7b42f63a8acc2c394de5ec7a8
     transition: 1s cubic-bezier(.19, 1, .22, 1) 0.6s;
 }
 
@@ -1943,19 +1852,11 @@ div#message {
 }
 #corpo-contact.contact-page .content-about {
     padding: 70px 60px 0;}
-<<<<<<< HEAD
-@media screen and (min-width:300px) and (max-width:960px) {
-=======
 @media screen and (max-width:960px) {
->>>>>>> 13a3773f021e49c7b42f63a8acc2c394de5ec7a8
     .nxt,
     .prv {
         display: none;
     }
-<<<<<<< HEAD
-	
-=======
->>>>>>> 13a3773f021e49c7b42f63a8acc2c394de5ec7a8
     .nxt-push svg path,
     .prv-push svg path {
         fill: #FFF;
@@ -2003,12 +1904,9 @@ div#message {
     .desktop {
         display: none;
     }
-<<<<<<< HEAD
-=======
 	
 	
 	
->>>>>>> 13a3773f021e49c7b42f63a8acc2c394de5ec7a8
     #sectionwrapper section,
     .all #sectionwrapper section {
         width: 100vw;
@@ -2052,10 +1950,7 @@ div#message {
         font-weight: 700;
         transition: 0.6s cubic-bezier(.19, 1, .22, 1);
     }
-<<<<<<< HEAD
-=======
 	
->>>>>>> 13a3773f021e49c7b42f63a8acc2c394de5ec7a8
     .breadcrumb {
         bottom: 17px;
         left: 60px;
@@ -2070,21 +1965,13 @@ div#message {
         position: fixed;
         top: 0;
         left: 0;
-<<<<<<< HEAD
-        height: 90%;
-=======
         height: 100%;
->>>>>>> 13a3773f021e49c7b42f63a8acc2c394de5ec7a8
         width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
         padding: 40px 40px;
-<<<<<<< HEAD
-        background: rgba(0, 0, 0, 0.8);
-=======
         background: rgb(204, 51, 68);
->>>>>>> 13a3773f021e49c7b42f63a8acc2c394de5ec7a8
         pointer-events: none;
         opacity: 0;
         transition: 1.4s cubic-bezier(.19, 1, .22, 1);
@@ -2102,29 +1989,17 @@ div#message {
         align-items: center;
         justify-content: center;
         padding: 40px 40px;
-<<<<<<< HEAD
-        background: rgba(0, 0, 0, 0.8);
-=======
         background: rgb(204, 51, 68);
->>>>>>> 13a3773f021e49c7b42f63a8acc2c394de5ec7a8
         pointer-events: none;
         opacity: 0;
         transition: 1.4s cubic-bezier(.19, 1, .22, 1);
         font-size: 18px;
-<<<<<<< HEAD
-        font-family: 'Butler';
-=======
         font-family: 'corbel';
->>>>>>> 13a3773f021e49c7b42f63a8acc2c394de5ec7a8
         text-transform: none;
     }
     h2 {
         font-size: 90px;
-<<<<<<< HEAD
-        font-family: "bebas_neue", sans-serif;
-=======
         font-family: "corbel", sans-serif;
->>>>>>> 13a3773f021e49c7b42f63a8acc2c394de5ec7a8
         font-weight: 400;
     }
     #sectionwrapper section,
@@ -2165,10 +2040,7 @@ div#message {
         justify-content: space-between;
         flex-wrap: wrap;
         flex-direction: column;
-<<<<<<< HEAD
-=======
 		font-size:20px;
->>>>>>> 13a3773f021e49c7b42f63a8acc2c394de5ec7a8
     }
     .content-about,
     .contact-page .content-about {
@@ -2183,22 +2055,14 @@ div#message {
         height: 100vh;
         overflow: auto;
         -webkit-overflow-scrolling: touch;
-<<<<<<< HEAD
-        font-size: 20px;
-=======
         font-size: 12px;
->>>>>>> 13a3773f021e49c7b42f63a8acc2c394de5ec7a8
     }
     .content-about h1 {
         width: 100%;
         font-size: 40px;
         margin: 0;
         padding: 0px 0 40px;
-<<<<<<< HEAD
-        font-family: 'Butler Bold';
-=======
         font-family: 'corbel';
->>>>>>> 13a3773f021e49c7b42f63a8acc2c394de5ec7a8
     }
     .content-texte .col1,
     .content-texte .col2 {
@@ -2362,11 +2226,7 @@ div#message {
     transition: 1s cubic-bezier(.19, 1, .22, 1) 0s;
 }
     .testshoot h3 {
-<<<<<<< HEAD
-    font-family: "bebas_neue", sans-serif;
-=======
     font-family: "corbel", sans-serif;
->>>>>>> 13a3773f021e49c7b42f63a8acc2c394de5ec7a8
     font-size: 28px;
     letter-spacing: 2px;
     overflow: hidden;
@@ -2420,17 +2280,10 @@ div#message {
     
 }
 
-<<<<<<< HEAD
-@media screen and (min-height:400px) and (max-height: 1080px) {
-    .width-img img {
-        width: 95vw;
-        height: 610px;
-=======
 @media screen and (max-height: 418px) {
     .width-img img {
         width: 60vw;
         height: auto;
->>>>>>> 13a3773f021e49c7b42f63a8acc2c394de5ec7a8
     }
     .email-side {
         display: none;
@@ -2457,11 +2310,7 @@ div#message {
     left:0px;    
     text-align:left; 
     cursor:pointer;        
-<<<<<<< HEAD
-    background-color: #000 !important;    
-=======
     background-color: #c34 !important;    
->>>>>>> 13a3773f021e49c7b42f63a8acc2c394de5ec7a8
     font: 17px Helvetica,Arial,sans-serif;    
     height:100%;
     color:#FFF;
@@ -2477,11 +2326,7 @@ div#message {
     padding: 1px 10px;    
     border-radius: 4px;    
     font-weight: normal;    
-<<<<<<< HEAD
-    background: #000 !important;    
-=======
     background: #c34 !important;    
->>>>>>> 13a3773f021e49c7b42f63a8acc2c394de5ec7a8
     white-space: nowrap;   
     margin: 0 2px; display: inline-block;
 }
@@ -2490,15 +2335,9 @@ div#message {
     background-color: #999 !important;
 }
 
-<<<<<<< HEAD
-@media only screen and (min-width:350px)(max-width: 1200px){
-.buorg div { 
-    padding:5px 10px 5px 9px; 
-=======
 @media only screen and (max-width: 700px){
 .buorg div { 
     padding:5px 12px 5px 9px; 
->>>>>>> 13a3773f021e49c7b42f63a8acc2c394de5ec7a8
     text-indent: 22px;
     line-height: 1.3em;
 }
@@ -2517,11 +2356,5 @@ div#message {
 .social-icon svg path {
     fill:#FFF;
 }
-<<<<<<< HEAD
-img.smallscreen { 
-                display: inline; 
-}
-=======
 
 
->>>>>>> 13a3773f021e49c7b42f63a8acc2c394de5ec7a8
