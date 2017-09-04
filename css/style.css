@@ -86,7 +86,7 @@ body {
 }
 
 main {
-    background: #000;
+    background: #c34;
     min-height: 100vh;
     display: flex;
     /*overflow: auto;*/
@@ -938,6 +938,7 @@ header nav a:hover.next-page,
     justify-content: space-between;
     flex-wrap: wrap;
     flex-direction: column;
+	
 }
 
 .contact-page .content-texte {
@@ -972,7 +973,7 @@ header nav a:hover.next-page,
 
 .content-about h1 {
     width: 100%;
-    font-size: 130px;
+    font-size: 60px;
     margin: 0;
     padding: 40px 0;
     font-family: 'Butler Bold';
@@ -991,6 +992,7 @@ header nav a:hover.next-page,
 .content-texte .col1,
 .content-texte .col2 {
     width: 80%;
+	font-size:30px;
 }
 
 .content-texte p,
@@ -2046,11 +2048,11 @@ div#message {
         height: 100vh;
         overflow: auto;
         -webkit-overflow-scrolling: touch;
-        font-size: 12px;
+        font-size: 20px;
     }
     .content-about h1 {
         width: 100%;
-        font-size: 60px;
+        font-size: 40px;
         margin: 0;
         padding: 0px 0 40px;
         font-family: 'Butler Bold';
