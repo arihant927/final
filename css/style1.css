@@ -942,15 +942,7 @@ header nav a:hover.next-page,
     justify-content: space-between;
     flex-wrap: wrap;
     flex-direction: column;
-<<<<<<< HEAD
-	font-size: 50px;
-	
-	
-=======
-	font-size: 40px;
-	font-color: #fff;
->>>>>>> af768bd94173416ea320343a20215382f5190f0b
-}
+
 
 .contact-page .content-texte {
     display: flex;
