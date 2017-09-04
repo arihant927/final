@@ -86,7 +86,7 @@ body {
 }
 
 main {
-    background: #c34;
+    background: #000;
     min-height: 100vh;
     display: flex;
     /*overflow: auto;*/
@@ -94,7 +94,7 @@ main {
 
 .about-page main {
     background: #FFF;
-    color: #c34;
+    color: #000;
     height: 100vh;
     overflow: auto;
 }
@@ -162,7 +162,7 @@ h3 span:nth-child(2) {
 }
 
 section {
-    background: #c34;
+    background: #000;
 }
 
 .general main .loader,
