@@ -74,7 +74,7 @@
 }
 
 body {
-    font-family: 'corbel', sans-serif;
+    font-family: 'maison_neue', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     overflow: hidden;
@@ -94,7 +94,7 @@ main {
 
 .about-page main {
     background: #FFF;
-    color: #000;
+    color: #c34;
     height: 100vh;
     overflow: auto;
 }
@@ -162,7 +162,7 @@ h3 span:nth-child(2) {
 }
 
 section {
-    background: #000;
+    background: #c34;
 }
 
 .general main .loader,
@@ -285,7 +285,7 @@ section {
 
 .loader section:before {
     content: '';
-    background: rgba(0, 0, 0, 0.8);
+    background: rgb(204, 51, 68);
     width: 100%;
     bottom: 0;
     left: 0;
@@ -297,7 +297,7 @@ section {
 
 .loaded .loader section:before {
     content: '';
-    background: rgba(0, 0, 0, 0.8);
+    background: rgb(204, 51, 68);
     width: 100%;
     height: 0;
     bottom: 0;
@@ -460,11 +460,15 @@ section:nth-child(11):before {
 /* Set the size of the scroller.  Visible border to make the demo easier to understand */
 
 #scrollable {
+	position:absolute;
     white-space: nowrap;
     width: 100vw;
     height: 100vh;
     overflow: hidden;
-    background: #000;
+    background: #c34;
+	text-align: center;
+	
+	
 }
 
 .interieur #scrollable {
@@ -491,8 +495,8 @@ section:nth-child(11):before {
     width: 25vw;
     height: 100vh;
     vertical-align: top;
-    background: #000;
-    color: #FFF;
+    background: #C34;
+    color: #c34;
     position: relative;
     overflow: hidden;
     pointer-events: auto;
@@ -502,7 +506,7 @@ section:nth-child(11):before {
     width: 100vw;
     height: 100vh;
     vertical-align: top;
-    background: #000;
+    background: #c34;
     color: #FFF;
     position: relative;
     overflow: hidden;
@@ -517,7 +521,7 @@ section:nth-child(11):before {
     height: auto;
     display: inline-block;
     vertical-align: top;
-    background: #000;
+    background: #c34;
     color: #FFF;
     position: relative;
     overflow: hidden;
@@ -708,7 +712,7 @@ section:hover .cover-txt p {
 .about:before {
     content: '';
     position: absolute;
-    background: #FFF;
+    background: #c34;
     top: calc(50% - 1px);
     left: -120px;
     width: 100px;
@@ -825,7 +829,7 @@ header nav a:hover.next-page,
 
 .about-page .barre-menu:after,
 .about-page .barre-menu:before {
-    background: #000;
+    background: #c34;
 }
 
 .barre-menu {
@@ -938,7 +942,7 @@ header nav a:hover.next-page,
     justify-content: space-between;
     flex-wrap: wrap;
     flex-direction: column;
-	
+	font-size: 40px;
 }
 
 .contact-page .content-texte {
@@ -973,26 +977,24 @@ header nav a:hover.next-page,
 
 .content-about h1 {
     width: 100%;
-    font-size: 60px;
+    font-size: 50px;
     margin: 0;
     padding: 40px 0;
     font-family: 'Butler Bold';
 }
 
 .content-img {
-    width: 10%;
+    width: 30%;
     padding: 200px 0 60px;
 }
 
 .content-img img {
     width: 100%;
-	height: 100%;
 }
 
 .content-texte .col1,
 .content-texte .col2 {
     width: 80%;
-	font-size:30px;
 }
 
 .content-texte p,
@@ -1351,7 +1353,7 @@ label.btn-radio {
     align-items: center;
     justify-content: center;
     padding: 200px 250px;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgb(204, 51, 68);
     pointer-events: none;
     opacity: 0;
     transition: 1.4s cubic-bezier(.19, 1, .22, 1);
@@ -1370,7 +1372,7 @@ label.btn-radio {
     align-items: center;
     justify-content: center;
     padding: 200px 250px;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgb(204, 51, 68);
     pointer-events: none;
     opacity: 0;
     transition: 1.4s cubic-bezier(.19, 1, .22, 1);
@@ -1475,7 +1477,7 @@ label.btn-radio {
 
 .pannel1 {
     left: 0;
-    background: #000;
+    background: #c34;
     right: 100vw;
     width: 0;
     transition: 1s cubic-bezier(.19, 1, .22, 1) 0.6s;
@@ -1485,7 +1487,7 @@ label.btn-radio {
     left: 50vw;
     right: 50vw;
     width: 0;
-    background: #000;
+    background: #c34;
     transition: 1s cubic-bezier(.19, 1, .22, 1) 0.6s;
 }
 
@@ -1493,7 +1495,7 @@ label.btn-radio {
     left: 100vw;
     right: 0;
     width: 0;
-    background: #000;
+    background: #c34;
     transition: 1s cubic-bezier(.19, 1, .22, 1) 0.6s;
 }
 
@@ -1849,12 +1851,11 @@ div#message {
 }
 #corpo-contact.contact-page .content-about {
     padding: 70px 60px 0;}
-@media screen and (min-width:300px) and (max-width:960px) {
+@media screen and (max-width:960px) {
     .nxt,
     .prv {
         display: none;
     }
-	
     .nxt-push svg path,
     .prv-push svg path {
         fill: #FFF;
@@ -1902,6 +1903,9 @@ div#message {
     .desktop {
         display: none;
     }
+	
+	
+	
     #sectionwrapper section,
     .all #sectionwrapper section {
         width: 100vw;
@@ -1959,13 +1963,13 @@ div#message {
         position: fixed;
         top: 0;
         left: 0;
-        height: 90%;
+        height: 100%;
         width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
         padding: 40px 40px;
-        background: rgba(0, 0, 0, 0.8);
+        background: rgb(204, 51, 68);
         pointer-events: none;
         opacity: 0;
         transition: 1.4s cubic-bezier(.19, 1, .22, 1);
@@ -1983,17 +1987,17 @@ div#message {
         align-items: center;
         justify-content: center;
         padding: 40px 40px;
-        background: rgba(0, 0, 0, 0.8);
+        background: rgb(204, 51, 68);
         pointer-events: none;
         opacity: 0;
         transition: 1.4s cubic-bezier(.19, 1, .22, 1);
         font-size: 18px;
-        font-family: 'Butler';
+        font-family: 'corbel';
         text-transform: none;
     }
     h2 {
         font-size: 90px;
-        font-family: "bebas_neue", sans-serif;
+        font-family: "corbel", sans-serif;
         font-weight: 400;
     }
     #sectionwrapper section,
@@ -2034,6 +2038,7 @@ div#message {
         justify-content: space-between;
         flex-wrap: wrap;
         flex-direction: column;
+		font-size:20px;
     }
     .content-about,
     .contact-page .content-about {
@@ -2048,14 +2053,14 @@ div#message {
         height: 100vh;
         overflow: auto;
         -webkit-overflow-scrolling: touch;
-        font-size: 20px;
+        font-size: 12px;
     }
     .content-about h1 {
         width: 100%;
         font-size: 40px;
         margin: 0;
         padding: 0px 0 40px;
-        font-family: 'Butler Bold';
+        font-family: 'corbel';
     }
     .content-texte .col1,
     .content-texte .col2 {
@@ -2219,7 +2224,7 @@ div#message {
     transition: 1s cubic-bezier(.19, 1, .22, 1) 0s;
 }
     .testshoot h3 {
-    font-family: "bebas_neue", sans-serif;
+    font-family: "corbel", sans-serif;
     font-size: 28px;
     letter-spacing: 2px;
     overflow: hidden;
@@ -2273,10 +2278,10 @@ div#message {
     
 }
 
-@media screen and (min-height:400px) and (max-height: 1080px) {
+@media screen and (max-height: 418px) {
     .width-img img {
-        width: 95vw;
-        height: 610px;
+        width: 60vw;
+        height: auto;
     }
     .email-side {
         display: none;
@@ -2303,7 +2308,7 @@ div#message {
     left:0px;    
     text-align:left; 
     cursor:pointer;        
-    background-color: #000 !important;    
+    background-color: #c34 !important;    
     font: 17px Helvetica,Arial,sans-serif;    
     height:100%;
     color:#FFF;
@@ -2319,7 +2324,7 @@ div#message {
     padding: 1px 10px;    
     border-radius: 4px;    
     font-weight: normal;    
-    background: #000 !important;    
+    background: #c34 !important;    
     white-space: nowrap;   
     margin: 0 2px; display: inline-block;
 }
@@ -2328,9 +2333,9 @@ div#message {
     background-color: #999 !important;
 }
 
-@media only screen and (min-width:350px)(max-width: 1200px){
+@media only screen and (max-width: 700px){
 .buorg div { 
-    padding:5px 10px 5px 9px; 
+    padding:5px 12px 5px 9px; 
     text-indent: 22px;
     line-height: 1.3em;
 }
@@ -2349,6 +2354,5 @@ div#message {
 .social-icon svg path {
     fill:#FFF;
 }
-img.smallscreen { 
-                display: inline; 
-}
+
+
