@@ -911,7 +911,8 @@ header nav a:hover.next-page,
     flex-wrap: wrap;
     position: relative;
     margin: auto;
-    width: 60%;
+    width: 30%;
+	color: white;
 }
 
 .contact-page .content-about {
@@ -2040,6 +2041,7 @@ div#message {
         flex-wrap: wrap;
         flex-direction: column;
 		font-size:20px;
+		color: white;
     }
     .content-about,
     .contact-page .content-about {

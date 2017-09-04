@@ -86,7 +86,7 @@ body {
 }
 
 main {
-    background: #1da1f2;
+    background: #FF0000;
     min-height: 100vh;
     display: flex;
     /*overflow: auto;*/
@@ -911,7 +911,7 @@ header nav a:hover.next-page,
     flex-wrap: wrap;
     position: relative;
     margin: auto;
-    width: 60%;
+    width: auto;
 }
 
 .contact-page .content-about {
@@ -923,7 +923,7 @@ header nav a:hover.next-page,
     position: relative;
     max-width: 480px;
     margin: auto;
-    width: 60%;
+    width: auto;
 }
 
 .content-texte a {
@@ -938,11 +938,18 @@ header nav a:hover.next-page,
 .content-texte {
     display: flex;
     align-items: flex-start;
-    width: 50%;
+    width: 100%;
     justify-content: space-between;
     flex-wrap: wrap;
     flex-direction: column;
+<<<<<<< HEAD
+	font-size: 50px;
+	
+	
+=======
 	font-size: 40px;
+	font-color: #fff;
+>>>>>>> af768bd94173416ea320343a20215382f5190f0b
 }
 
 .contact-page .content-texte {
@@ -2040,6 +2047,7 @@ div#message {
         flex-wrap: wrap;
         flex-direction: column;
 		font-size:20px;
+		color: white;
     }
     .content-about,
     .contact-page .content-about {
