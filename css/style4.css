@@ -86,7 +86,7 @@ body {
 }
 
 main {
-    background: #c34;
+    background: #00a31f;
     min-height: 100vh;
     display: flex;
     /*overflow: auto;*/
@@ -118,7 +118,7 @@ header {
 
 h3 {
     font-family: "bebas_neue", sans-serif;
-    font-size: 34px;
+    font-size: 27px;
     letter-spacing: 2px;
     overflow: hidden;
     padding: 10px 14px 10px 14px;
@@ -978,7 +978,7 @@ header nav a:hover.next-page,
 
 .content-about h1 {
     width: 100%;
-    font-size: 50px;
+    font-size: 37px;
     margin: 0;
     padding: 40px 0;
     font-family: 'Butler Bold';
@@ -995,7 +995,7 @@ header nav a:hover.next-page,
 
 .content-texte .col1,
 .content-texte .col2 {
-    width: 80%;
+    width: 120%;
 }
 
 .content-texte p,
